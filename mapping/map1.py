@@ -11,6 +11,7 @@ html = """
     <h4>Volcano information:</h4>
     Height: %s m
 """
+
 # Base of map + starting point
 map = folium.Map(location=[-33.892055, 150.959063], zoom_start=3)
 
